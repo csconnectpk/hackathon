@@ -1,5 +1,5 @@
 // Set the date we're counting down to (the event start date)
-const countdownDate = new Date("2025-03-25T09:00").getTime(); // Event start date (march 25, 2025, 09:00)
+const countdownDate = new Date("2025-04-08T23:59").getTime(); // Event start date (march 25, 2025, 09:00)
 
 // Update the countdown every second
 const timer = setInterval(function () {
@@ -12,7 +12,7 @@ const timer = setInterval(function () {
     // If the countdown is finished
     if (distance < 0) {
         clearInterval(timer); // Stop the countdown
-        document.querySelector('.countdown-container').innerHTML = "<h2>The hackathon has begun!</h2>";
+        document.querySelector('.countdown-container').innerHTML = "<h2>The hackathon has ended!</h2>";
     } else {
         // Time calculations for days, hours, minutes, and seconds
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
