@@ -1,5 +1,5 @@
 // Set the date we're counting down to (the event start date)
-const countdownDate = new Date("2025-04-08T23:59").getTime(); // Event start date (march 25, 2025, 09:00)
+const countdownDate = new Date("2025-04-11T23:59").getTime(); // Event start date (march 25, 2025, 09:00)
 
 // Update the countdown every second
 const timer = setInterval(function () {
